@@ -10,7 +10,7 @@ namespace Lab05
             PrintPerson(new Student());
 
             Console.WriteLine(" STUDENTC ");
-            PrintStudent(new StudentC());
+            PrintStudent(new StudentC(new Person()));
 
             Console.ReadKey();
 
